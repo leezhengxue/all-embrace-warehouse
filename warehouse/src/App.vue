@@ -1,4 +1,5 @@
 <template>
+  <link href="http://fonts.cdnfonts.com/css/sofia-pro" rel="stylesheet" />
   <div>
     <router-view />
   </div>
