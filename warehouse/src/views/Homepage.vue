@@ -22,25 +22,25 @@
         <div class="card-container">
           <div class="solution-card">
             <div class="solution-card-wrapper">
-              <img src="../assets/logo.png" />
-              <p>Solution Service</p>
+              <img src="../assets/storage_service.png" />
+              <p>Storage Service</p>
             </div>
           </div>
           <div class="solution-card">
             <div class="solution-card-wrapper">
-              <img src="../assets/logo.png" />
+              <img src="../assets/packaging_service.png" />
               <p>Packaging Service</p>
             </div>
           </div>
           <div class="solution-card">
             <div class="solution-card-wrapper">
-              <img src="../assets/logo.png" />
+              <img src="../assets/transportation_service.png" />
               <p>Transportation Service</p>
             </div>
           </div>
           <div class="solution-card">
             <div class="solution-card-wrapper">
-              <img src="../assets/logo.png" />
+              <img src="../assets/ecommerce_service_center.png" />
               <p>E-commerce fulfillment center</p>
             </div>
           </div>
@@ -50,7 +50,7 @@
 
     <div class="section-2">
       <div class="section-2-wrapper">
-        <h2>About All-Embrace Warehouse</h2>
+        <h2>About All-Embrace Warehouse / What we do??</h2>
         <p>
           All-Embrace Warehouse is a premium fulfillment service provider in
           South East Asia that offers professional fulfillment service for both
@@ -63,7 +63,7 @@
 
     <div class="section-1">
       <div class="section-1-wrapper">
-        <h2>Pricing :)</h2>
+        <h2>Pricing Calculator</h2>
         <p>
           All-Embrace Warehouse is a premium fulfillment service provider in
           South East Asia that offers professional fulfillment service for both
@@ -75,7 +75,7 @@
     </div>
     <div class="section-2">
       <div class="section-2-wrapper">
-        <h2>FAQ</h2>
+        <h2>Review???</h2>
         <p>
           All-Embrace Warehouse is a premium fulfillment service provider in
           South East Asia that offers professional fulfillment service for both
@@ -111,7 +111,12 @@ body {
   height: 100vh;
   position: fixed;
   top: 100px;
-  background-color: pink;
+  /* background-color: pink; */
+  background-image: url("../assets/hero_img.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 60%;
 }
 .hero-title-container {
   text-align: left;
@@ -124,16 +129,19 @@ body {
   font-size: 30px;
   font-family: "Sofia Pro", sans-serif;
   color: #fff;
+  text-shadow: 0px 1px 10px #000000;
 }
 .hero-section h3 {
   font-size: 80px;
   font-family: "Sofia Pro", sans-serif;
   color: #fff;
+  text-shadow: 0px 1px 10px #000000;
 }
 .hero-section h2 {
   font-size: 50px;
   font-family: "Sofia Pro", sans-serif;
   color: #fff;
+  text-shadow: 0px 1px 10px #000000;
 }
 .scrolldown-container {
   position: relative;
@@ -222,7 +230,7 @@ body {
   width: 100%;
   position: relative;
   top: 100vh;
-  background: #ddd;
+  background: #f7d083;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -240,6 +248,8 @@ body {
   font-family: "Niveau Grotesk Regular";
   line-height: 30px;
   padding-top: 2% 0;
+  max-width: 1000px;
+  margin: auto;
 }
 .section-1-wrapper {
   width: 80%;
@@ -270,6 +280,8 @@ body {
   line-height: 30px;
   padding-top: 2% 0;
   text-align: justify;
+  max-width: 1000px;
+  margin: auto;
 }
 .section-2-wrapper {
   width: 80%;
@@ -286,11 +298,36 @@ body {
   margin: 10px;
   height: 300px;
   width: 250px;
-  background: grey;
-  color: white;
+  background: white;
+  color: black;
   border-radius: 20px;
+  /* box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.5); closer */
+  box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.5); /* further */
+}
+.solution-card-wrapper p {
+  padding: 25px 0 20px 0;
+}
+.solution-card-wrapper {
+  padding: 20px 0 0 0;
 }
 img {
   border-radius: 50%;
+  width: 190px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .hero-title-container {
+    padding-left: 10vw;
+  }
+  .hero-section h1 {
+    font-size: 27px;
+  }
+  .hero-section h3 {
+    font-size: 60px;
+  }
+  .hero-section h2 {
+    font-size: 40px;
+  }
 }
 </style>

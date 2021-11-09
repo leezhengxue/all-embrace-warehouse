@@ -1,7 +1,7 @@
 <template>
   <headernav />
   <div class="content">
-    <div class="section-1">
+    <!-- <div class="section-1">
       <div class="section-1-wrapper">
         <h2>About All-Embrace Warehouse</h2>
         <p>
@@ -12,14 +12,14 @@
           retail industry revolution.
         </p>
       </div>
-    </div>
+    </div> -->
 
     <div class="section-2">
       <div class="section-2-wrapper">
         <div class="card-container">
           <div class="solution-card">
             <div class="solution-card-wrapper">
-              <h2>Mission</h2>
+              <h2>OUUR STORY</h2>
               <p>
                 To exceed customers expectations through the most extensive and
                 efficient of networks with best performance to attain speed and
@@ -29,7 +29,7 @@
           </div>
           <div class="solution-card">
             <div class="solution-card-wrapper">
-              <h2>Vision</h2>
+              <h2>NO MISSION AND VISION</h2>
               <p>
                 Create innovative warehouse solutions to customers by offering
                 the services as per customers requirements.
@@ -40,8 +40,8 @@
       </div>
     </div>
 
-    <div class="section-2">
-      <div class="section-2-wrapper">
+    <div class="section-1">
+      <div class="section-1-wrapper">
         <h2>We Guarantee YOU</h2>
         <div class="card-container">
           <div class="solution-card">
@@ -153,7 +153,7 @@ body {
 }
 .section-1 {
   width: 100%;
-  background: #ddd;
+  background: #f7d083;
   min-height: 90vh;
   display: flex;
   justify-content: center;
@@ -226,8 +226,14 @@ body {
   border-radius: 10px;
   /* color: white; */
   /* box-shadow: 2px 2px 2px 2px grey; */
-  box-shadow: 0px 0px 12px #eef0f5;
+  /* box-shadow: 0px 0px 12px #eef0f5; */
+  box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.5); /* closer */
+  /*  box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.5); further */
 }
+.solution-card:hover {
+  box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.5); /* further */
+}
+
 .solution-card-wrapper {
   padding: 30px;
 }
