@@ -43,7 +43,7 @@
       </section>
       <div class="footer-content">
         <div class="footer-content-slot-1">
-          <div>LOGO</div>
+          <div><img class="logo" src="../assets/AE_logo_white.png" /></div>
           <div>
             <h3>About us</h3>
             <p>Simplified, Reliable, Secure</p>
@@ -257,6 +257,10 @@ export default {
 .footer-wrapper {
   width: 100%;
   margin: auto;
+}
+.logo {
+  height: 100px;
+  width: auto;
 }
 section {
   position: relative;

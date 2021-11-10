@@ -2,7 +2,9 @@
   <header>
     <div class="header-wrapper">
       <div class="logo">
-        <router-link to="/"><a>LOGO</a></router-link>
+        <router-link to="/">
+          <img class="logo" src="../assets/AE_logo_name_white.png"
+        /></router-link>
       </div>
       <nav>
         <ul>
@@ -42,8 +44,11 @@ header {
 }
 .logo {
   float: left;
-  line-height: 100px;
   margin-left: 50px;
+}
+.logo img {
+  height: 100px;
+  width: auto;
 }
 .logo a {
   text-decoration: none;
