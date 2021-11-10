@@ -154,8 +154,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import url("http://fonts.cdnfonts.com/css/sofia-pro");
-@import url("//db.onlinewebfonts.com/c/255b4be50d9bc6456a90b84b88c6c31d?family=Niveau+Grotesk+Regular");
 * {
   margin: 0;
   padding: 0;
