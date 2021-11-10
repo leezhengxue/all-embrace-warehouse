@@ -1,20 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Homepage from '../views/Homepage'
-import About from '../views/About'
 import Contact from '../views/Contact'
 import Pricing from '../views/Pricing'
+import Fulfillment from '../views/Fulfillment'
 
 const routes = [
     { 
         path: '/',
         name: "Homepage",
         component: Homepage 
-    },
-    { 
-        path: '/about',
-        name: "About",
-        component: About
     },
     { 
         path: '/contact', 
@@ -26,11 +21,19 @@ const routes = [
         name: "Pricing",
         component: Pricing 
     },
+    { 
+        path: '/fulfillment', 
+        name: "Fulfillment",
+        component: Fulfillment
+    },
 
   ]
   const router = createRouter({
     history: createWebHistory(process.env.BASE_URL),
     routes,
+    scrollBehavior() { 
+        window.scrollTo(0,0);
+    }
   });
   
   export default router;

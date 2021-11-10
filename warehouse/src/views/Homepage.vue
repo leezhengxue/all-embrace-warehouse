@@ -50,13 +50,66 @@
 
     <div class="section-2">
       <div class="section-2-wrapper">
-        <h2>About All-Embrace Warehouse / What we do??</h2>
+        <h2>What we do??</h2>
         <p>
-          All-Embrace Warehouse is a premium fulfillment service provider in
-          South East Asia that offers professional fulfillment service for both
-          online & offline retail businesses. Our fulfillment services are
-          enabled by technologies to meet the fast changing requirements of the
-          retail industry revolution.
+          We carry out manual and automated order picking and packing tasks on
+          your behalf. These include banding, labelling and set assembly. Of
+          course, we also stock PoS displays and prepare them for retail.
+        </p>
+        <p>
+          Operations should be lean and hassle-free. We all-embrace warehouse
+          offers a set of packaging services that enable customers to focus on
+          their core products and processes to grow their business. Packing,
+          kitting, warehousing, just-in-time delivery, and containerization are
+          examples of services that we custom build to meet specific
+          requirements of our customers.
+        </p>
+        <p>
+          We All-Embrace warehouse performs functions related to the receiving
+          and processing of incoming goods and materials. Our responsibilities
+          may include packing and shipping orders or managing, organizing and
+          retrieving stock. We are also responsible for maintaining a clean and
+          safe working environment, keeping shelves, the workstation and the
+          pallet area clean and neat and complying with all rules and
+          regulations regarding cleanliness and safety.
+        </p>
+        <div>
+          <h4>
+            Some of the specific duties All-Embrace warehouse may include:
+          </h4>
+          <p>
+            Picking merchandise from the distribution center and transporting it
+            to the shipping by for loading.
+          </p>
+          <p>
+            Receiving goods for return or delivery and verifying its contents
+            against the purchase order to ensure it is accurate and free from
+            damage
+          </p>
+          <p>
+            Identifying lost, damaged or missing merchandise and notifying the
+            supplier/ client
+          </p>
+          <p>
+            Training new employees on the company’s and department’s processes
+            and procedures for rapid onboarding
+          </p>
+          <p>
+            Packing orders in an orderly manner so they are prepared for
+            shipping
+          </p>
+        </div>
+
+        <p>
+          A fulfillment warehouse handles only the storage, packing, and
+          shipping of goods from the warehouse to customers. In many cases,
+          businesses that contract with fulfillment warehouses still need to
+          drop off inventory at the warehouse. Fulfillment warehouses offer
+          great flexibility for eCommerce businesses that are growing or
+          experiencing unpredictable order volume. This type of warehouse is
+          also increasingly accessible, making it simple to get started. More
+          business owners are also turning to warehouse management systems to
+          simplify this side of their business.
         </p>
       </div>
     </div>
@@ -71,9 +124,10 @@
           enabled by technologies to meet the fast changing requirements of the
           retail industry revolution.
         </p>
+        <pricecalculator />
       </div>
     </div>
-    <div class="section-2">
+    <!-- <div class="section-2">
       <div class="section-2-wrapper">
         <h2>Review???</h2>
         <p>
@@ -84,14 +138,15 @@
           retail industry revolution.
         </p>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
 import headernav from "../components/header.vue";
+import pricecalculator from "../components/pricecalculator.vue";
 export default {
-  components: { headernav },
+  components: { headernav, pricecalculator },
   name: "Homepage",
   props: {},
 };

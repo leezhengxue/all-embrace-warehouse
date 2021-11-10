@@ -7,7 +7,7 @@
       <nav>
         <ul>
           <li>
-            <router-link to="/about">About Us</router-link>
+            <router-link to="/fulfillment">Fulfillment & Warehouse</router-link>
           </li>
           <li>
             <router-link to="/pricing">Pricing</router-link>

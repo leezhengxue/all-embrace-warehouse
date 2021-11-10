@@ -16,32 +16,6 @@
 
     <div class="section-2">
       <div class="section-2-wrapper">
-        <div class="card-container">
-          <div class="solution-card">
-            <div class="solution-card-wrapper">
-              <h2>OUUR STORY</h2>
-              <p>
-                To exceed customers expectations through the most extensive and
-                efficient of networks with best performance to attain speed and
-                reliability of services.
-              </p>
-            </div>
-          </div>
-          <div class="solution-card">
-            <div class="solution-card-wrapper">
-              <h2>NO MISSION AND VISION</h2>
-              <p>
-                Create innovative warehouse solutions to customers by offering
-                the services as per customers requirements.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section-1">
-      <div class="section-1-wrapper">
         <h2>We Guarantee YOU</h2>
         <div class="card-container">
           <div class="solution-card">
@@ -91,6 +65,86 @@
         </div>
       </div>
     </div>
+    <div class="section-1">
+      <div class="section-1-wrapper">
+        <h2>Storage Service</h2>
+        <p>
+          Looking for a storage service to keep your belongings safe? If you are
+          planning to store products and looking for a warehouse then why not
+          ask the experts? Our All-embrace warehouse team is always here ready
+          to help you. And guess what? You have chosen the right service here.
+          All your items will be kept safely in our storage. Our storage service
+          will agree with you a secure area for your products to be delivered
+          and distributed.
+        </p>
+        <div>
+          <h4>Air-Conditioned Or Non-Air-Conditioned( WE HAVE COLD ROOM )</h4>
+          <p>
+            Prevent moisture and humidity damage for your bags, books, clothes,
+            art, documents and other fragile items. Our precise climate-control
+            storage rooms are the best in the industry.
+          </p>
+
+          <h4>24/7 Security & Fire Prevention</h4>
+          <p>
+            Our cutting-edge facility is fully equipped with CCTV monitoring,
+            fire alarms and smoke detection to prevent any unwanted loss or
+            damage. Feel safe when you move your items in or out.
+          </p>
+
+          <h4>Flexible Storage Space</h4>
+          <p>
+            From 1CBM managed storage, upgrade or downgrade anytime. Store
+            furniture, clothes, documents or other household items easily.
+            Warehouse space available for business and e-commerce use.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="section-2">
+      <div class="section-2-wrapper">
+        <h2>Logistic services</h2>
+        <p>
+          Covering all modes of transport, we provide you with the services you
+          need to meet your customers' demands. Based on your business needs,
+          our team can suggest the most effective and efficient shipment options
+          available.Our transportation service is very flexible and will be
+          tailored around your specific requirements, for example timed
+          deliveries and collections. At the heart of our service is our
+          commitment to customer service and quality. Our focus has always been
+          solely on not letting our customers down.
+          <!-- <br />Think together. Move together. Success together. -->
+        </p>
+      </div>
+    </div>
+    <div class="section-1">
+      <div class="section-1-wrapper">
+        <h2>Packaging service</h2>
+        <p>
+          With tailored packing services, we can help you with all types of
+          packing operations, no matter the location or where the products are
+          going to be sent. We can help with packing operation at your
+          facilities our in our own, based on what will best suit your needs.
+        </p>
+        <h4>
+          Our Packing and Kitting services includes among other the following
+          services:
+        </h4>
+        <p>
+          Packing, the all-embrace warehouse provides materials and a crew
+          standby on site and packs the products that need to be shipped. The
+          item needing to be packed is brought to the all-embrace warehouse for
+          packing. The packages are redistributed according to the customer’s
+          request.
+        </p>
+        <p>
+          Kitting, All-Embrace warehouse helps customers to pack complex items
+          and secure them into one box. This method is used for items in bulk or
+          have promotions to be shipped together as a single box. The items are
+          properly loaded and secured in the box.
+        </p>
+      </div>
+    </div>
     <div class="section-2">
       <div class="section-2-wrapper">
         <h2 class="section-title">Supported logistic</h2>
@@ -117,7 +171,7 @@
 import headernav from "../components/header.vue";
 export default {
   components: { headernav },
-  name: "About",
+  name: "Fulfillment",
   props: {},
 };
 </script>
