@@ -1,63 +1,65 @@
 <template>
-  <headernav />
-  <div class="content">
-    <div class="section-1">
-      <div class="section-1-wrapper">
-        <h2>Pricing</h2>
-        <div class="card-container">
-          <div class="card">
-            <div class="card-wrapper">
-              <h2>Inbound Rates</h2>
-              <p>
-                To exceed customers expectations through the most extensive and
-                efficient of networks with best performance to attain speed and
-                reliability of services.
-              </p>
+  <div>
+    <headernav />
+    <div class="content">
+      <div class="section-1">
+        <div class="section-1-wrapper">
+          <h2>Pricing</h2>
+          <div class="card-container">
+            <div class="card">
+              <div class="card-wrapper">
+                <h2>Inbound Rates</h2>
+                <p>
+                  To exceed customers expectations through the most extensive
+                  and efficient of networks with best performance to attain
+                  speed and reliability of services.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-wrapper">
-              <h2>OutBound Rates</h2>
-              <p>
-                Create innovative warehouse solutions to customers by offering
-                the services as per customers requirements.
-              </p>
+            <div class="card">
+              <div class="card-wrapper">
+                <h2>OutBound Rates</h2>
+                <p>
+                  Create innovative warehouse solutions to customers by offering
+                  the services as per customers requirements.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-wrapper">
-              <h2>Storage Fees</h2>
-              <p>
-                Create innovative warehouse solutions to customers by offering
-                the services as per customers requirements.
-              </p>
+            <div class="card">
+              <div class="card-wrapper">
+                <h2>Storage Fees</h2>
+                <p>
+                  Create innovative warehouse solutions to customers by offering
+                  the services as per customers requirements.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-wrapper">
-              <h2>Others</h2>
-              <p>
-                Create innovative warehouse solutions to customers by offering
-                the services as per customers requirements.
-              </p>
+            <div class="card">
+              <div class="card-wrapper">
+                <h2>Others</h2>
+                <p>
+                  Create innovative warehouse solutions to customers by offering
+                  the services as per customers requirements.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="section-2">
-      <div class="section-2-wrapper">
-        <h2>Pricing Calculator</h2>
-        <p>
-          Try out this cool calculator below to get an estimation of how much
-          you would be charged per month. Please do note that this is a
-          simplified calculator and actual charges will differ based on various
-          factors such as item size, weight, courier charges and required
-          packing procedures, etc. Moreover, the estimation calculator is here
-          to give you a rough idea of how much you could be charged based on
-          items moving in and stored here at the warehouse.
-        </p>
-        <pricecalculator />
+      <div class="section-2">
+        <div class="section-2-wrapper">
+          <h2>Pricing Calculator</h2>
+          <p>
+            Try out this cool calculator below to get an estimation of how much
+            you would be charged per month. Please do note that this is a
+            simplified calculator and actual charges will differ based on
+            various factors such as item size, weight, courier charges and
+            required packing procedures, etc. Moreover, the estimation
+            calculator is here to give you a rough idea of how much you could be
+            charged based on items moving in and stored here at the warehouse.
+          </p>
+          <pricecalculator />
+        </div>
       </div>
     </div>
   </div>
