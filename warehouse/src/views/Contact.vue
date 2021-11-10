@@ -1,76 +1,78 @@
 <template>
-  <headernav />
-  <div class="content">
-    <div class="contact-section">
-      <div class="contact-section-wrapper">
-        <div class="title-container">
-          <h2>Contact Us</h2>
+  <div>
+    <headernav />
+    <div class="content">
+      <div class="contact-section">
+        <div class="contact-section-wrapper">
+          <div class="title-container">
+            <h2>Contact Us</h2>
+          </div>
+        </div>
+        <div class="contact-section-wrapper-2">
+          <div>
+            <p>feel free to contact us</p>
+            <img src="../assets/logo.png" />
+          </div>
+          <div class="information-container">
+            <div class="information-wrapper">
+              <p>All-Embrace Warehouse SDN BHD</p>
+              <p>
+                13-2B, Jalan Puteri 2/3,<br />
+                Bandar Puteri, 47100 Puchong,<br />
+                Selangor, Malaysia
+              </p>
+              <p>allembrace.trading@gmail.com</p>
+              <p>Whatsapp: +60 14 660 1574</p>
+              <p>Monday - Friday | 10am - 6pm</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="contact-section-wrapper-2">
-        <div>
-          <p>feel free to contact us</p>
-          <img src="../assets/logo.png" />
-        </div>
-        <div class="information-container">
-          <div class="information-wrapper">
-            <p>All-Embrace Warehouse SDN BHD</p>
+    </div>
+
+    <div class="footer">
+      <div class="footer-wrapper">
+        <section>
+          <div class="scroll text1">
+            <div class="font">
+              - Contact Us <span>- Contact Us </span>- Contact Us
+              <span>- Contact Us </span>- Contact Us <span>- Contact Us </span>-
+              Contact Us <span>- Contact Us </span> - Contact Us
+              <span>- Contact Us </span>
+            </div>
+          </div>
+        </section>
+        <div class="footer-content">
+          <div class="footer-content-slot-1">
+            <div><img class="logo" src="../assets/AE_logo_white.png" /></div>
+            <div>
+              <h3>About us</h3>
+              <p>Simplified, Reliable, Secure</p>
+            </div>
+          </div>
+          <div class="footer-content-slot-2">
+            <p>LinkedIn</p>
+            <p>Facebook</p>
+            <p>Instagram</p>
+          </div>
+          <div class="footer-content-slot-3">
+            <h3>Office address</h3>
             <p>
               13-2B, Jalan Puteri 2/3,<br />
               Bandar Puteri, 47100 Puchong,<br />
               Selangor, Malaysia
             </p>
-            <p>allembrace.trading@gmail.com</p>
-            <p>Whatsapp: +60 14 660 1574</p>
-            <p>Monday - Friday | 10am - 6pm</p>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
+          <div class="footer-content-slot-4">
+            <p>
+              All-Embrace Warehouse<br />
+              allembrace.trading@gmail.com<br />
+              +60 14 660 1574
+            </p>
+          </div>
 
-  <div class="footer">
-    <div class="footer-wrapper">
-      <section>
-        <div class="scroll text1">
-          <div class="font">
-            - Contact Us <span>- Contact Us </span>- Contact Us
-            <span>- Contact Us </span>- Contact Us <span>- Contact Us </span>-
-            Contact Us <span>- Contact Us </span> - Contact Us
-            <span>- Contact Us </span>
-          </div>
+          <div class="line"></div>
         </div>
-      </section>
-      <div class="footer-content">
-        <div class="footer-content-slot-1">
-          <div><img class="logo" src="../assets/AE_logo_white.png" /></div>
-          <div>
-            <h3>About us</h3>
-            <p>Simplified, Reliable, Secure</p>
-          </div>
-        </div>
-        <div class="footer-content-slot-2">
-          <p>LinkedIn</p>
-          <p>Facebook</p>
-          <p>Instagram</p>
-        </div>
-        <div class="footer-content-slot-3">
-          <h3>Office address</h3>
-          <p>
-            13-2B, Jalan Puteri 2/3,<br />
-            Bandar Puteri, 47100 Puchong,<br />
-            Selangor, Malaysia
-          </p>
-        </div>
-        <div class="footer-content-slot-4">
-          <p>
-            All-Embrace Warehouse<br />
-            allembrace.trading@gmail.com<br />
-            +60 14 660 1574
-          </p>
-        </div>
-
-        <div class="line"></div>
       </div>
     </div>
   </div>

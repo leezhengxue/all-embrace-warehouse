@@ -73,44 +73,34 @@
           pallet area clean and neat and complying with all rules and
           regulations regarding cleanliness and safety.
         </p>
-        <div>
+        <div class="sub-section-container">
           <h4>
-            Some of the specific duties All-Embrace warehouse may include:
+            Some of the specific duties All-Embrace Warehouse may include:
           </h4>
-          <p>
-            Picking merchandise from the distribution center and transporting it
-            to the shipping by for loading.
-          </p>
-          <p>
-            Receiving goods for return or delivery and verifying its contents
-            against the purchase order to ensure it is accurate and free from
-            damage
-          </p>
-          <p>
-            Identifying lost, damaged or missing merchandise and notifying the
-            supplier/ client
-          </p>
-          <p>
-            Training new employees on the company’s and department’s processes
-            and procedures for rapid onboarding
-          </p>
-          <p>
-            Packing orders in an orderly manner so they are prepared for
-            shipping
-          </p>
+          <div class="sub-section-wrapper">
+            <p>
+              ✓ Picking merchandise from the distribution center and
+              transporting it to the shipping by for loading.
+            </p>
+            <p>
+              ✓ Receiving goods for return or delivery and verifying its
+              contents against the purchase order to ensure it is accurate and
+              free from damage
+            </p>
+            <p>
+              ✓ Identifying lost, damaged or missing merchandise and notifying
+              the supplier/ client
+            </p>
+            <p>
+              ✓ Training new employees on the company’s and department’s
+              processes and procedures for rapid onboarding
+            </p>
+            <p>
+              ✓ Packing orders in an orderly manner so they are prepared for
+              shipping
+            </p>
+          </div>
         </div>
-
-        <p>
-          A fulfillment warehouse handles only the storage, packing, and
-          shipping of goods from the warehouse to customers. In many cases,
-          businesses that contract with fulfillment warehouses still need to
-          drop off inventory at the warehouse. Fulfillment warehouses offer
-          great flexibility for eCommerce businesses that are growing or
-          experiencing unpredictable order volume. This type of warehouse is
-          also increasingly accessible, making it simple to get started. More
-          business owners are also turning to warehouse management systems to
-          simplify this side of their business.
-        </p>
       </div>
     </div>
 
@@ -294,13 +284,15 @@ body {
 
 .section-1 h2 {
   font-size: 40px;
-  font-family: "Niveau Grotesk Regular";
+  /* font-family: "Niveau Grotesk Regular"; */
+  font-family: "Questrial", sans-serif;
   letter-spacing: 3px;
   padding-top: 10px;
   margin: 0;
 }
 .section-1 p {
-  font-family: "Niveau Grotesk Regular";
+  /* font-family: "Niveau Grotesk Regular"; */
+  font-family: "Questrial", sans-serif;
   line-height: 30px;
   padding-top: 2% 0;
   max-width: 1000px;
@@ -325,21 +317,30 @@ body {
 
 .section-2 h2 {
   font-size: 40px;
-  font-family: "Niveau Grotesk Regular";
+  /* font-family: "Niveau Grotesk Regular"; */
+  font-family: "Questrial", sans-serif;
   letter-spacing: 3px;
   padding-top: 10px;
   margin: 0;
 }
 .section-2 p {
-  font-family: "Niveau Grotesk Regular";
+  /* font-family: "Niveau Grotesk Regular"; */
+  font-family: "Questrial", sans-serif;
   line-height: 30px;
-  padding-top: 2% 0;
+  padding: 10px;
   text-align: justify;
   max-width: 1000px;
   margin: auto;
 }
 .section-2-wrapper {
   width: 80%;
+  margin: auto;
+}
+.sub-section-container {
+  margin: 20px;
+}
+.sub-section-wrapper {
+  max-width: 600px;
   margin: auto;
 }
 .card-container {
