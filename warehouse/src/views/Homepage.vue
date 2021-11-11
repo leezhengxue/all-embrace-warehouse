@@ -68,6 +68,7 @@
           your behalf. These include banding, labelling and set assembly. Of
           course, we also stock PoS displays and prepare them for retail.
         </p>
+        <h4>Our Operations</h4>
         <p>
           Operations should be lean and hassle-free. We all-embrace warehouse
           offers a set of packaging services that enable customers to focus on
@@ -76,6 +77,7 @@
           examples of services that we custom build to meet specific
           requirements of our customers.
         </p>
+        <h4>Our Responsibilities</h4>
         <p>
           We All-Embrace warehouse performs functions related to the receiving
           and processing of incoming goods and materials. Our responsibilities
@@ -86,10 +88,10 @@
           regulations regarding cleanliness and safety.
         </p>
         <div class="sub-section-container">
-          <h4>
-            Some of the specific duties All-Embrace Warehouse may include:
-          </h4>
           <div class="sub-section-wrapper">
+            <h4>
+              Some of the specific duties All-Embrace Warehouse may include:
+            </h4>
             <p>
               ✓ Picking merchandise from the distribution center and
               transporting it to the shipping by for loading.
@@ -97,19 +99,19 @@
             <p>
               ✓ Receiving goods for return or delivery and verifying its
               contents against the purchase order to ensure it is accurate and
-              free from damage
+              free from damage.
             </p>
             <p>
               ✓ Identifying lost, damaged or missing merchandise and notifying
-              the supplier/ client
+              the supplier/ client.
             </p>
             <p>
               ✓ Training new employees on the company’s and department’s
-              processes and procedures for rapid onboarding
+              processes and procedures for rapid onboarding.
             </p>
             <p>
               ✓ Packing orders in an orderly manner so they are prepared for
-              shipping
+              shipping.
             </p>
           </div>
         </div>
@@ -131,26 +133,16 @@
         <pricecalculator />
       </div>
     </div>
-    <!-- <div class="section-2">
-      <div class="section-2-wrapper">
-        <h2>Review???</h2>
-        <p>
-          All-Embrace Warehouse is a premium fulfillment service provider in
-          South East Asia that offers professional fulfillment service for both
-          online & offline retail businesses. Our fulfillment services are
-          enabled by technologies to meet the fast changing requirements of the
-          retail industry revolution.
-        </p>
-      </div>
-    </div> -->
+    <footernav />
   </div>
 </template>
 
 <script>
 import headernav from "../components/header.vue";
+import footernav from "../components/footer.vue";
 import pricecalculator from "../components/pricecalculator.vue";
 export default {
-  components: { headernav, pricecalculator },
+  components: { headernav, pricecalculator, footernav },
   name: "Homepage",
   props: {},
 };
@@ -357,6 +349,9 @@ body {
   max-width: 600px;
   margin: auto;
 }
+.sub-section-wrapper h4 {
+  font-family: "Open Sans", sans-serif;
+}
 .card-container {
   display: flex;
   /* flex-direction: row;
@@ -392,7 +387,10 @@ img {
   width: 190px;
   height: auto;
 }
-
+.footer {
+  position: relative;
+  top: 100vh;
+}
 @media (max-width: 768px) {
   .hero-title-container {
     padding-left: 10vw;

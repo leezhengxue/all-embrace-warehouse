@@ -5,42 +5,52 @@
       <div class="section-1">
         <div class="section-1-wrapper">
           <h2>Pricing</h2>
-          <div class="card-container">
-            <div class="card">
-              <div class="card-wrapper">
-                <h2>Inbound Rates</h2>
-                <p>
-                  To exceed customers expectations through the most extensive
-                  and efficient of networks with best performance to attain
-                  speed and reliability of services.
-                </p>
+          <div class="card-container-wrapper">
+            <div class="card-container">
+              <div class="card">
+                <div class="card-wrapper">
+                  <h2>Inbound Rates</h2>
+                  <h4>From RM 0.30 / Item</h4>
+                  <p>
+                    Exceed customer expectations through the most extensive and
+                    efficient networks with the best performance to achieve the
+                    speed and reliability of the services. Contact us now !
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-wrapper">
+                  <h2>Outbound Rates</h2>
+                  <h4>From RM 0.80 / Item</h4>
+                  <p>
+                    Create innovative warehouse solutions for customers by
+                    offering the services according to customer requirements.
+                    Contact us now !
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="card">
-              <div class="card-wrapper">
-                <h2>OutBound Rates</h2>
-                <p>
-                  Create innovative warehouse solutions to customers by offering
-                  the services as per customers requirements.
-                </p>
+            <div class="card-container">
+              <div class="card">
+                <div class="card-wrapper">
+                  <h2>Storage Fees</h2>
+                  <h4>As low as RM 16.50 / CBM</h4>
+                  <p>
+                    Minimum charge of RM 80/ month, or 1 CBM a month. Rates in
+                    Cubic Meter. Contact us now !
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="card">
-              <div class="card-wrapper">
-                <h2>Storage Fees</h2>
-                <p>
-                  Create innovative warehouse solutions to customers by offering
-                  the services as per customers requirements.
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-wrapper">
-                <h2>Others</h2>
-                <p>
-                  Create innovative warehouse solutions to customers by offering
-                  the services as per customers requirements.
-                </p>
+              <div class="card">
+                <div class="card-wrapper">
+                  <h2>Others</h2>
+                  <h4>From RM 0.10 onwards</h4>
+                  <p>
+                    Additional material such as Cardboard box, Card Printing,
+                    Flyer Printing, Bubble Wrapping, Airway bills, Shrink Wrap,
+                    Freight Wrap and many more. Contact us now !
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -62,14 +72,16 @@
         </div>
       </div>
     </div>
+    <footernav />
   </div>
 </template>
 
 <script>
 import headernav from "../components/header.vue";
 import pricecalculator from "../components/pricecalculator.vue";
+import footernav from "../components/footer.vue";
 export default {
-  components: { headernav, pricecalculator },
+  components: { headernav, pricecalculator, footernav },
   name: "Pricing",
   props: {},
 };
@@ -92,13 +104,13 @@ export default {
 
 .section-1 h2 {
   font-size: 40px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   letter-spacing: 3px;
   padding-top: 10px;
   margin: 0;
 }
 .section-1 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 30px;
   padding-top: 2% 0;
 }
@@ -120,13 +132,13 @@ export default {
 
 .section-2 h2 {
   font-size: 40px;
-  font-family: "Niveau Grotesk Regular";
+  font-family: "Open Sans", sans-serif;
   letter-spacing: 3px;
   padding-top: 10px;
   margin: 40px auto;
 }
 .section-2 p {
-  font-family: "Niveau Grotesk Regular";
+  font-family: "Open Sans", sans-serif;
   line-height: 30px;
   padding-top: 2% 0;
   text-align: center;
@@ -137,7 +149,11 @@ export default {
   width: 80%;
   margin: auto;
 }
-
+.card-container-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .card-container {
   /* modify how the card should be aligned here */
   display: flex;
@@ -146,12 +162,11 @@ export default {
   /* flex-direction: row;
   justify-content: center;
   align-items: center; */
-  padding: 10px;
 }
 .card {
   /* min-height: 250px; */
   min-width: 250px;
-  width: 350px;
+  max-width: 350px;
   margin: 10px;
   background: white;
   border-radius: 10px;
@@ -164,8 +179,16 @@ export default {
 }
 .card-wrapper h2 {
   padding: 10px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.card-wrapper h4 {
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #f7d083;
 }
 .card-wrapper p {
-  text-align: left;
+  text-align: center;
 }
 </style>

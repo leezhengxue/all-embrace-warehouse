@@ -10,13 +10,15 @@
         </div>
         <div class="contact-section-wrapper-2">
           <div class="image-wrapper">
-            <p style="text-align: left; margin: 20px 0">
-              Got a question about ? Looking for help with ? wanna share your
-              thoughts? Need to know who, what, where, why or when? We've got
-              all kinds of ways to help you find out. Here is how you can
-              contact us for customer service. <br />If you are looking at this
-              page, you are in what we call “the later stages of the b2b
-              purchase journey”.
+            <p>
+              Do you have a question about it? Are you looking for help? Want to
+              share your thoughts? Feel free to <b>contact us</b>, we have all
+              kinds of ways to assist you to solve it.
+            </p>
+            <p>Feel free to <b>contact us</b> in our customer service :)</p>
+            <p>
+              If you are looking at this page, you are in "the final stages of
+              the B2B journey". <b>HIT US UP!</b>
             </p>
             <a
               href="https://www.google.com/maps/place/All-Embrace+Trading/@3.022309,101.6135567,17z/data=!3m1!4b1!4m5!3m4!1s0x31cdb3cc3a2946f5:0x2607b23f414c78ca!8m2!3d3.0223448!4d101.6157517"
@@ -34,15 +36,20 @@
                 Selangor, Malaysia
               </p>
               <p>allembrace.trading@gmail.com</p>
-              <p>Whatsapp: +60 14 660 1574</p>
+              <p>
+                Whatsapp:
+                <a href="https://wa.link/buffw6" target="_blank"
+                  >+60 14 660 1574</a
+                >
+              </p>
               <p>Monday - Friday | 10am - 6pm</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="footer">
+    <footernav />
+    <!-- <div class="footer">
       <div class="footer-wrapper">
         <section>
           <div class="scroll text1">
@@ -81,19 +88,26 @@
               allembrace.trading@gmail.com<br />
               +60 14 660 1574
             </p>
+            <img class="logo" src="../assets/whatsapp_qr.png" />
           </div>
 
           <div class="line"></div>
+          <div class="footer-copyright">
+            <h5>Copyright © 2021.</h5>
+            <h5>All-Embrace Warehouse Sdn. Bhd.</h5>
+            <h5>All rights reserved</h5>
+          </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
 import headernav from "../components/header.vue";
+import footernav from "../components/footer.vue";
 export default {
-  components: { headernav },
+  components: { headernav, footernav },
   name: "Contact",
   props: {},
 };
@@ -217,7 +231,7 @@ export default {
   padding-top: 2% 0;
 }
 .contact-section-wrapper {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 .contact-section-wrapper-2 {
@@ -232,9 +246,19 @@ export default {
 .title-container {
   background: #f7d083;
 }
+.title-container h2 {
+  font-family: "Sofia Pro", sans-serif;
+}
 .image-wrapper {
   max-width: 800px;
+  margin: 50px 0;
 }
+.image-wrapper p {
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  margin: 20px 0;
+}
+
 .map-image {
   height: auto;
   max-width: 100%;
@@ -249,9 +273,10 @@ export default {
 }
 .information-wrapper p {
   padding-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
 }
 
-.footer {
+/* .footer {
   display: block;
   width: 100%;
   background: #598794;
@@ -282,6 +307,7 @@ export default {
 .logo {
   height: 100px;
   width: auto;
+  padding: 5px;
 }
 section {
   position: relative;
@@ -322,6 +348,7 @@ section.scroll div:nth-child(2) {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  font-family: "Sofia Pro", sans-serif;
 }
 .footer-content-slot-1 {
   font-size: 15px;
@@ -357,4 +384,14 @@ section.scroll div:nth-child(2) {
   width: 90%;
   margin: 30px 0 30px 0;
 }
+.footer-copyright {
+  width: 85%;
+  padding: 0 0 20px 0;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-copyright h5 {
+  padding-right: 10px;
+} */
 </style>
