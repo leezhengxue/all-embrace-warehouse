@@ -68,7 +68,7 @@
           </div>
         </div>
       </div>
-      <div class="section-2">
+      <div class="section-2" id="storage">
         <div class="section-2-wrapper">
           <h2>Storage Service</h2>
           <p>
@@ -109,7 +109,7 @@
           </div>
         </div>
       </div>
-      <div class="section-1">
+      <div class="section-1" id="logistic">
         <div class="section-1-wrapper">
           <h2>Logistic services</h2>
           <p>
@@ -125,7 +125,7 @@
           </p>
         </div>
       </div>
-      <div class="section-2">
+      <div class="section-2" id="packaging">
         <div class="section-2-wrapper">
           <h2>Packaging service</h2>
           <p>
@@ -158,7 +158,7 @@
           </div>
         </div>
       </div>
-      <div class="section-1">
+      <div class="section-1" id="ecommerce">
         <div class="section-1-wrapper">
           <h2>Ecommerce Fulfillment Service</h2>
           <p>
@@ -257,7 +257,7 @@ body {
 .section-1 {
   width: 100%;
   background: #f7d083;
-  min-height: 90vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -286,7 +286,7 @@ body {
   display: block;
   width: 100%;
   background: #fff;
-  min-height: 90vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;

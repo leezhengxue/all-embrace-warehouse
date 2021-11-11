@@ -23,25 +23,37 @@
           <div class="solution-card">
             <div class="solution-card-wrapper">
               <img src="../assets/storage_service.png" />
-              <p>Storage Service</p>
+              <h4>Storage Service</h4>
+              <a href="/fulfillment/#storage">
+                <p>Go to Storage ➔</p>
+              </a>
             </div>
           </div>
           <div class="solution-card">
             <div class="solution-card-wrapper">
               <img src="../assets/packaging_service.png" />
-              <p>Packaging Service</p>
+              <h4>Packaging Service</h4>
+              <a href="/fulfillment/#packaging">
+                <p>Go to Packaging ➔</p>
+              </a>
             </div>
           </div>
           <div class="solution-card">
             <div class="solution-card-wrapper">
               <img src="../assets/transportation_service.png" />
-              <p>Transportation Service</p>
+              <h4>Logistic Service</h4>
+              <a href="/fulfillment/#logistic">
+                <p>Go to Logistic ➔</p>
+              </a>
             </div>
           </div>
           <div class="solution-card">
             <div class="solution-card-wrapper">
               <img src="../assets/ecommerce_service_center.png" />
-              <p>E-commerce fulfillment center</p>
+              <h4>E-commerce fulfillment center</h4>
+              <a href="/fulfillment/#ecommerce">
+                <p>Go to E-commerce ➔</p>
+              </a>
             </div>
           </div>
         </div>
@@ -108,11 +120,13 @@
       <div class="section-1-wrapper">
         <h2>Pricing Calculator</h2>
         <p>
-          All-Embrace Warehouse is a premium fulfillment service provider in
-          South East Asia that offers professional fulfillment service for both
-          online & offline retail businesses. Our fulfillment services are
-          enabled by technologies to meet the fast changing requirements of the
-          retail industry revolution.
+          Try out this cool calculator below to get an estimation of how much
+          you would be charged per month. Please do note that this is a
+          simplified calculator and actual charges will differ based on various
+          factors such as item size, weight, courier charges and required
+          packing procedures, etc. Moreover, the estimation calculator is here
+          to give you a rough idea of how much you could be charged based on
+          items moving in and stored here at the warehouse.
         </p>
         <pricecalculator />
       </div>
@@ -285,14 +299,14 @@ body {
 .section-1 h2 {
   font-size: 40px;
   /* font-family: "Niveau Grotesk Regular"; */
-  font-family: "Questrial", sans-serif;
+  font-family: "Open Sans", sans-serif;
   letter-spacing: 3px;
   padding-top: 10px;
   margin: 0;
 }
 .section-1 p {
   /* font-family: "Niveau Grotesk Regular"; */
-  font-family: "Questrial", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 30px;
   padding-top: 2% 0;
   max-width: 1000px;
@@ -318,14 +332,14 @@ body {
 .section-2 h2 {
   font-size: 40px;
   /* font-family: "Niveau Grotesk Regular"; */
-  font-family: "Questrial", sans-serif;
+  font-family: "Open Sans", sans-serif;
   letter-spacing: 3px;
   padding-top: 10px;
   margin: 0;
 }
 .section-2 p {
   /* font-family: "Niveau Grotesk Regular"; */
-  font-family: "Questrial", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 30px;
   padding: 10px;
   text-align: justify;
@@ -352,19 +366,26 @@ body {
 }
 .solution-card {
   margin: 10px;
-  height: 300px;
-  width: 250px;
+  height: 330px;
+  width: 270px;
   background: white;
   color: black;
   border-radius: 20px;
   /* box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.5); closer */
   box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.5); /* further */
 }
-.solution-card-wrapper p {
-  padding: 25px 0 20px 0;
-}
 .solution-card-wrapper {
   padding: 20px 0 0 0;
+}
+.solution-card-wrapper h4 {
+  font-family: "Sofia Pro", sans-serif;
+  font-size: 18px;
+  padding: 35px 0 15px 0;
+}
+.solution-card-wrapper a {
+  text-decoration: none;
+  color: #ebad04;
+  font-size: 15px;
 }
 img {
   border-radius: 50%;

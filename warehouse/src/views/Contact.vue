@@ -9,9 +9,21 @@
           </div>
         </div>
         <div class="contact-section-wrapper-2">
-          <div>
-            <p>feel free to contact us</p>
-            <img src="../assets/logo.png" />
+          <div class="image-wrapper">
+            <p style="text-align: left; margin: 20px 0">
+              Got a question about ? Looking for help with ? wanna share your
+              thoughts? Need to know who, what, where, why or when? We've got
+              all kinds of ways to help you find out. Here is how you can
+              contact us for customer service. <br />If you are looking at this
+              page, you are in what we call “the later stages of the b2b
+              purchase journey”.
+            </p>
+            <a
+              href="https://www.google.com/maps/place/All-Embrace+Trading/@3.022309,101.6135567,17z/data=!3m1!4b1!4m5!3m4!1s0x31cdb3cc3a2946f5:0x2607b23f414c78ca!8m2!3d3.0223448!4d101.6157517"
+              target="_blank"
+            >
+              <img class="map-image" src="../assets/AE_map.png"
+            /></a>
           </div>
           <div class="information-container">
             <div class="information-wrapper">
@@ -219,6 +231,13 @@ export default {
 }
 .title-container {
   background: #f7d083;
+}
+.image-wrapper {
+  max-width: 800px;
+}
+.map-image {
+  height: auto;
+  max-width: 100%;
 }
 .information-container {
   margin: 50px 0 50px 0;
