@@ -13,10 +13,13 @@
       </section>
       <div class="footer-content">
         <div class="footer-content-slot-1">
-          <div><img class="logo" src="../assets/AE_logo_white.png" /></div>
+          <div><img class="logo" src="../assets/AE_logo_black.png" /></div>
           <div>
-            <h3>About us</h3>
-            <p>Simplified, Reliable, Secure</p>
+            <!-- <h3>About us</h3> -->
+            <p>
+              Simplified,<br />
+              Reliable, <br />Secure.
+            </p>
           </div>
         </div>
         <div class="footer-content-slot-2">
@@ -34,9 +37,9 @@
         </div>
         <div class="footer-content-slot-4">
           <p>
-            All-Embrace Warehouse<br />
+            All-Embrace Warehouse Sdn. Bhd.<br />
             allembrace.trading@gmail.com<br />
-            +60 14 660 1574
+            <a href="https://wa.link/buffw6" target="_blank">+60 14 660 1574</a>
           </p>
           <img class="logo" src="../assets/whatsapp_qr.png" />
         </div>
@@ -61,12 +64,12 @@ export default {
 .footer {
   display: block;
   width: 100%;
-  background: #598794;
+  background: #eeeeee;
   min-height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #231f20;
 }
 
 .footer h2 {
@@ -99,10 +102,10 @@ section {
 }
 .font {
   font-family: "Sofia Pro", sans-serif;
-  color: #fff;
+  color: #231f20;
   font-size: 60px;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: black;
+  /* -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black; */
 }
 section .scroll {
   width: 100%;
@@ -160,8 +163,13 @@ section.scroll div:nth-child(2) {
   text-align: left;
   padding: 20px;
 }
+.footer-content-slot-4 a {
+  text-decoration: none;
+  color: #231f20;
+}
+
 .line {
-  background: white;
+  background: #231f20;
   height: 1.5px;
   width: 90%;
   margin: 30px 0 30px 0;

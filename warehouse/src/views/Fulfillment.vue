@@ -410,6 +410,10 @@ p {
   max-width: 1000px;
   margin: auto;
 }
+.image-wrapper img {
+  height: auto;
+  max-width: 100%;
+}
 .div_img {
   height: 100%;
   max-width: 400px;

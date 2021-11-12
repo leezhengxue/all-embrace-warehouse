@@ -19,41 +19,45 @@
     <div class="section-1">
       <div class="section-1-wrapper">
         <h2>Solution</h2>
-        <div class="card-container">
-          <div class="solution-card">
-            <div class="solution-card-wrapper">
-              <img src="../assets/storage_service.png" />
-              <h4>Storage Service</h4>
-              <a href="/fulfillment/#storage">
-                <p>Go to Storage ➔</p>
-              </a>
+        <div class="wrap-cards">
+          <div class="card-container">
+            <div class="solution-card">
+              <div class="solution-card-wrapper">
+                <img src="../assets/storage_service.png" />
+                <h4>Storage Service</h4>
+                <a href="/fulfillment/#storage">
+                  <p>Go to Storage ➔</p>
+                </a>
+              </div>
+            </div>
+            <div class="solution-card">
+              <div class="solution-card-wrapper">
+                <img src="../assets/packaging_service.png" />
+                <h4>Packaging Service</h4>
+                <a href="/fulfillment/#packaging">
+                  <p>Go to Packaging ➔</p>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="solution-card">
-            <div class="solution-card-wrapper">
-              <img src="../assets/packaging_service.png" />
-              <h4>Packaging Service</h4>
-              <a href="/fulfillment/#packaging">
-                <p>Go to Packaging ➔</p>
-              </a>
+          <div class="card-container">
+            <div class="solution-card">
+              <div class="solution-card-wrapper">
+                <img src="../assets/transportation_service.png" />
+                <h4>Logistic Service</h4>
+                <a href="/fulfillment/#logistic">
+                  <p>Go to Logistic ➔</p>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="solution-card">
-            <div class="solution-card-wrapper">
-              <img src="../assets/transportation_service.png" />
-              <h4>Logistic Service</h4>
-              <a href="/fulfillment/#logistic">
-                <p>Go to Logistic ➔</p>
-              </a>
-            </div>
-          </div>
-          <div class="solution-card">
-            <div class="solution-card-wrapper">
-              <img src="../assets/ecommerce_service_center.png" />
-              <h4>E-commerce fulfillment center</h4>
-              <a href="/fulfillment/#ecommerce">
-                <p>Go to E-commerce ➔</p>
-              </a>
+            <div class="solution-card">
+              <div class="solution-card-wrapper">
+                <img src="../assets/ecommerce_service_center.png" />
+                <h4>Fulfillment Fervice</h4>
+                <a href="/fulfillment/#ecommerce">
+                  <p>Go to E-commerce ➔</p>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -87,6 +91,7 @@
           pallet area clean and neat and complying with all rules and
           regulations regarding cleanliness and safety.
         </p>
+
         <div class="sub-section-container">
           <div class="sub-section-wrapper">
             <h4>
@@ -117,7 +122,38 @@
         </div>
       </div>
     </div>
-
+    <!-- <div class="section-1">
+      <div class="section-1-wrapper">
+        <div class="sub-section-container">
+          <div class="sub-section-wrapper">
+            <h4>
+              Some of the specific duties All-Embrace Warehouse may include:
+            </h4>
+            <p>
+              ✓ Picking merchandise from the distribution center and
+              transporting it to the shipping by for loading.
+            </p>
+            <p>
+              ✓ Receiving goods for return or delivery and verifying its
+              contents against the purchase order to ensure it is accurate and
+              free from damage.
+            </p>
+            <p>
+              ✓ Identifying lost, damaged or missing merchandise and notifying
+              the supplier/ client.
+            </p>
+            <p>
+              ✓ Training new employees on the company’s and department’s
+              processes and procedures for rapid onboarding.
+            </p>
+            <p>
+              ✓ Packing orders in an orderly manner so they are prepared for
+              shipping.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> -->
     <div class="section-1">
       <div class="section-1-wrapper">
         <h2>Pricing Calculator</h2>
@@ -281,7 +317,7 @@ body {
   width: 100%;
   position: relative;
   top: 100vh;
-  background: #f7d083;
+  background: #fff;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -300,7 +336,6 @@ body {
   /* font-family: "Niveau Grotesk Regular"; */
   font-family: "Open Sans", sans-serif;
   line-height: 30px;
-  padding-top: 2% 0;
   max-width: 1000px;
   margin: auto;
 }
@@ -314,7 +349,7 @@ body {
   width: 100%;
   position: relative;
   top: 100vh;
-  background: #fff;
+  background: #f7d083;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -347,10 +382,23 @@ body {
 }
 .sub-section-wrapper {
   max-width: 600px;
+  padding: 40px;
   margin: auto;
+  background: white;
+  border-radius: 10px;
 }
+
 .sub-section-wrapper h4 {
   font-family: "Open Sans", sans-serif;
+}
+
+.sub-section-wrapper p {
+  text-align: left;
+}
+.wrap-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .card-container {
   display: flex;
@@ -391,6 +439,13 @@ img {
   position: relative;
   top: 100vh;
 }
+
+@media (max-width: 1440px) {
+  .solution-card {
+    width: 250px;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-title-container {
     padding-left: 10vw;
@@ -403,6 +458,9 @@ img {
   }
   .hero-section h2 {
     font-size: 40px;
+  }
+  .sub-section-wrapper {
+    padding: 10px;
   }
 }
 </style>
