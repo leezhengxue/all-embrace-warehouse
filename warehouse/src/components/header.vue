@@ -8,10 +8,16 @@
       </div>
 
       <nav>
-        <div class="burger"><a @click="openmenu">open</a></div>
+        <div class="burger" @click="openmenu">
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+        </div>
         <div class="nav-links" id="navLinks">
           <ul>
-            <div class="burger-close" @click="closemenu">X</div>
+            <div class="burger-close" @click="closemenu">
+              <a class="close-logo">x</a>
+            </div>
             <li>
               <router-link to="/">Home</router-link>
             </li>
@@ -72,11 +78,13 @@ header {
 }
 .logo {
   float: left;
-  margin-left: 50px;
+  display: flex;
+  justify-content: center;
 }
 .logo img {
   height: 100px;
   width: auto;
+  margin-left: 100px;
 }
 .logo a {
   text-decoration: none;
@@ -111,11 +119,23 @@ nav ul li a:hover {
   cursor: pointer;
 }
 .burger {
-  margin: 0 150px 0 0;
+  margin: 40px 120px 0 0;
   display: none;
 }
 .burger-close {
   display: none;
+}
+.burger-line {
+  height: 3px;
+  width: 30px;
+  background: white;
+  margin: 5px;
+}
+.close-logo {
+  margin-left: 140px;
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
 }
 @media (max-width: 1024px) {
   nav ul li a {
@@ -126,10 +146,14 @@ nav ul li a:hover {
 @media (max-width: 768px) {
   .burger {
     display: block;
+    /* position: relative;
+    left: 70px; */
+    margin: 40px 50px 0 0;
   }
   .burger-close {
     display: block;
   }
+
   nav ul {
     flex-direction: column;
   }
@@ -155,5 +179,11 @@ nav ul li a:hover {
   /* .nav-active {
     transform: translateX(0%);
   } */
+  .logo {
+    width: 100%;
+  }
+  .logo img {
+    margin-left: 90px;
+  }
 }
 </style>

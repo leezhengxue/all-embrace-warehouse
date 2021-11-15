@@ -7,67 +7,71 @@
           <h2>Pricing</h2>
           <div class="card-container-wrapper">
             <div class="card-container">
-              <div class="card">
-                <div class="card-wrapper">
-                  <h2>Inbound Rates</h2>
-                  <h4>From RM 0.30 / Item</h4>
-                  <p>
-                    Exceed customer expectations through the most extensive and
-                    efficient networks with the best performance to achieve the
-                    speed and reliability of the services.
-                  </p>
-                  <div class="box-button">
-                    <span
-                      ><router-link to="/contact"><a></a></router-link
-                    ></span>
+              <div style="display: flex">
+                <div class="card">
+                  <div class="card-wrapper">
+                    <h2>Inbound Rates</h2>
+                    <h4>From RM 0.30 / Item</h4>
+                    <p>
+                      Exceed customer expectations through the most extensive
+                      and efficient networks with the best performance to
+                      achieve the speed and reliability of the services.
+                    </p>
+                    <div class="box-button">
+                      <span
+                        ><router-link to="/contact"><a></a></router-link
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-wrapper">
+                    <h2>Outbound Rates</h2>
+                    <h4>From RM 0.80 / Item</h4>
+                    <p>
+                      Create innovative warehouse solutions for customers by
+                      offering the services according to customer requirements.
+                    </p>
+                    <div class="box-button">
+                      <span
+                        ><router-link to="/contact"><a></a></router-link
+                      ></span>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="card">
-                <div class="card-wrapper">
-                  <h2>Outbound Rates</h2>
-                  <h4>From RM 0.80 / Item</h4>
-                  <p>
-                    Create innovative warehouse solutions for customers by
-                    offering the services according to customer requirements.
-                  </p>
-                  <div class="box-button">
-                    <span
-                      ><router-link to="/contact"><a></a></router-link
-                    ></span>
+              <!-- </div>
+            <div class="card-container"> -->
+              <div style="display: flex">
+                <div class="card">
+                  <div class="card-wrapper">
+                    <h2>Storage Fees</h2>
+                    <h4>As low as RM 16.50 / CBM</h4>
+                    <p>
+                      Minimum charge of RM 80/ month, or 1 CBM a month. Rates in
+                      Cubic Meter.
+                    </p>
+                    <div class="box-button">
+                      <span
+                        ><router-link to="/contact"><a></a></router-link
+                      ></span>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="card-container">
-              <div class="card">
-                <div class="card-wrapper">
-                  <h2>Storage Fees</h2>
-                  <h4>As low as RM 16.50 / CBM</h4>
-                  <p>
-                    Minimum charge of RM 80/ month, or 1 CBM a month. Rates in
-                    Cubic Meter.
-                  </p>
-                  <div class="box-button">
-                    <span
-                      ><router-link to="/contact"><a></a></router-link
-                    ></span>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-wrapper">
-                  <h2>Others</h2>
-                  <h4>From RM 0.10 onwards</h4>
-                  <p>
-                    Additional material such as Cardboard box, Card Printing,
-                    Flyer Printing, Bubble Wrapping, Airway bills, Shrink Wrap,
-                    Freight Wrap and many more.
-                  </p>
-                  <div class="box-button">
-                    <span
-                      ><router-link to="/contact"><a></a></router-link
-                    ></span>
+                <div class="card">
+                  <div class="card-wrapper">
+                    <h2>Others</h2>
+                    <h4>From RM 0.10 onwards</h4>
+                    <p>
+                      Additional material such as Cardboard box, Card Printing,
+                      Flyer Printing, Bubble Wrapping, Airway bills, Shrink
+                      Wrap, Freight Wrap and many more.
+                    </p>
+                    <div class="box-button">
+                      <span
+                        ><router-link to="/contact"><a></a></router-link
+                      ></span>
+                    </div>
                   </div>
                 </div>
               </div>
