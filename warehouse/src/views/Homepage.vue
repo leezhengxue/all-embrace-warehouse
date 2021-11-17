@@ -25,7 +25,7 @@
               <div class="solution-card-wrapper">
                 <img src="../assets/storage_service.png" />
                 <h4>Storage Service</h4>
-                <a href="/fulfillment/#storage">
+                <a href="/fulfillment/#Services">
                   <p>Go to Storage ➔</p>
                 </a>
               </div>
@@ -34,7 +34,7 @@
               <div class="solution-card-wrapper">
                 <img src="../assets/packaging_service.png" />
                 <h4>Packaging Service</h4>
-                <a href="/fulfillment/#packaging">
+                <a href="/fulfillment/#Services">
                   <p>Go to Packaging ➔</p>
                 </a>
               </div>
@@ -45,7 +45,7 @@
               <div class="solution-card-wrapper">
                 <img src="../assets/transportation_service.png" />
                 <h4>Logistic Service</h4>
-                <a href="/fulfillment/#logistic">
+                <a href="/fulfillment/#Services">
                   <p>Go to Logistic ➔</p>
                 </a>
               </div>
@@ -54,7 +54,7 @@
               <div class="solution-card-wrapper">
                 <img src="../assets/ecommerce_service_center.png" />
                 <h4>Fulfillment Fervice</h4>
-                <a href="/fulfillment/#ecommerce">
+                <a href="/fulfillment/#Services">
                   <p>Go to E-commerce ➔</p>
                 </a>
               </div>
