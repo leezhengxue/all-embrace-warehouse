@@ -175,7 +175,6 @@
                         </div>
                       </div>
                     </div>
-                    <img src="https://placehold.it/800x600" alt="" />
                   </div>
                   <div id="tab__content--2" class="tab__content">
                     <div class="section-1-wrapper">
@@ -200,7 +199,6 @@
                         src="../assets/logistic_service_div.png"
                       />
                     </div>
-                    <img src="https://placehold.it/800x600" alt="" />
                   </div>
                   <div id="tab__content--3" class="tab__content">
                     <div class="section-1-wrapper">
@@ -239,7 +237,6 @@
                         </p>
                       </div>
                     </div>
-                    <img src="https://placehold.it/800x600" alt="" />
                   </div>
                   <div id="tab__content--4" class="tab__content">
                     <div class="section-1-wrapper">
@@ -265,7 +262,6 @@
                         src="../assets/e-commerce_warehouse_div.png"
                       />
                     </div>
-                    <img src="https://placehold.it/800x600" alt="" />
                   </div>
                 </div>
               </div>
