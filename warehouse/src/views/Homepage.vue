@@ -318,7 +318,8 @@ body {
   width: 100%;
   position: relative;
   top: 100vh;
-  background: #f7d083;
+  /* background: #f7d083; original*/
+  background: #fad999;
   min-height: 100vh;
   display: flex;
   justify-content: center;

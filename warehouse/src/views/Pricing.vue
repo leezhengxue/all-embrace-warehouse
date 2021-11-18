@@ -4,7 +4,7 @@
     <div class="content">
       <div class="section-2">
         <div class="section-2-wrapper">
-          <h2>Pricing</h2>
+          <h1>Pricing</h1>
           <div class="card-container-wrapper">
             <div class="card-container">
               <div class="card">
@@ -140,16 +140,29 @@ export default {
 }
 
 .section-2 {
+  background-image: url("../assets/pricing_background.png");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: 60%;
+  /* filter: brightness(50%); */
   display: block;
   width: 100%;
   position: relative;
-  background: #f7d083;
+
   min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.section-2 h1 {
+  font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 3px;
+  padding-top: 10px;
+  margin: 40px auto;
+  color: #f7d083;
+}
 .section-2 h2 {
   font-size: 40px;
   font-family: "Open Sans", sans-serif;
@@ -169,6 +182,9 @@ export default {
   width: 80%;
   margin: auto;
 }
+/* .section-2-wrapper h2 {
+  
+} */
 .card-container-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -193,7 +209,7 @@ export default {
   border-radius: 10px;
   /* color: white; */
   /* box-shadow: 2px 2px 2px 2px grey; */
-  box-shadow: 0px 0px 12px #eef0f5;
+  /* box-shadow: 0px 0px 12px #eef0f5; white background put this shadow*/
 }
 .card-wrapper {
   padding: 30px;

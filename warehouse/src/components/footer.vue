@@ -23,9 +23,28 @@
           </div>
         </div>
         <div class="footer-content-slot-2">
-          <p>LinkedIn</p>
-          <p>Facebook</p>
-          <p>Instagram</p>
+          <h3>Social Media</h3>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/all-embrace-warehouse-347459226/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://www.facebook.com/AllEmbraceWarehouse"
+              target="_blank"
+              >Facebook</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://www.instagram.com/allembrace_warehouse/"
+              target="_blank"
+              >Instagram</a
+            >
+          </p>
         </div>
         <div class="footer-content-slot-3">
           <h3>Office address</h3>
@@ -146,6 +165,11 @@ section.scroll div:nth-child(2) {
   font-size: 15px;
   width: 200px;
   padding: 20px;
+  text-align: left;
+}
+.footer-content-slot-2 a {
+  text-decoration: none;
+  color: #231f20;
 }
 .footer-content-slot-3 {
   font-size: 15px;
