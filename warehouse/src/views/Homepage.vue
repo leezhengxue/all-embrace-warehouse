@@ -199,7 +199,7 @@ body {
   position: fixed;
   top: 100px;
   /* background-color: pink; */
-  background-image: url("../assets/hero_img.png");
+  background-image: url("../assets/warehouse_hero.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
