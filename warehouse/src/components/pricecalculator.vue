@@ -1,122 +1,99 @@
 <template>
-  <div class="pricing-card-container">
-    <div class="pricing-card-wrapper">
-      <!--  <form>
-                <input type="range" value="0" max="29999" class="slider" onChange="calculate()" id="myRange">
-                <output class="bubble"></output>
-              </form> -->
-      <form>
-        <div class="range-wrap">
+  <!-- <div class="pricing-card-container"> -->
+  <div class="pricing-card-wrapper">
+    <form>
+      <div class="range-wrap">
+        <input
+          type="range"
+          class="range"
+          value="0"
+          max="29999"
+          @change="calculate()"
+          id="myRange"
+        />
+        <output class="bubble"><span>RM</span></output>
+      </div>
+    </form>
+
+    <div class="content-container" id="partone">
+      <div class="content-wrapper">
+        <label class="label-font">Amount of Item</label>
+        <input
+          type="number"
+          class="cbm-input"
+          @change="calculate()"
+          id="myInput"
+          min="0"
+        />
+        <label class="label-font">Weight per item</label>
+        <SELECT
+          NAME="weight"
+          @change="calculate()"
+          id="itemweight"
+          class="cbm-input"
+        >
+          <OPTION value="0.80">0kg - 3kg</OPTION>
+          <OPTION value="1.20">3kg - 5kg</OPTION>
+        </SELECT>
+        <button type="button" class="button-design" @click="next">Next</button>
+      </div>
+    </div>
+    <div class="content-container" id="parttwo">
+      <div class="content-wrapper">
+        <form>
           <input
             type="range"
-            class="range"
-            value="0"
-            max="29999"
-            @change="calculate()"
-            id="myRange"
-          />
-          <output class="bubble"><span>RM</span></output>
-        </div>
-      </form>
-
-      <div class="content-container" id="partone">
-        <div class="content-wrapper">
-          <label>Amount of Item</label>
-          <input
-            type="number"
-            class="cbm-input"
-            @change="calculate()"
-            id="myInput"
-            min="0"
-          />
-          <label>Weight per item</label>
-          <SELECT NAME="weight" @change="calculate()" id="itemweight">
-            <OPTION value="0.80">0kg - 3kg</OPTION>
-            <OPTION value="1.20">3kg - 5kg</OPTION>
-          </SELECT>
-          <button type="button" class="button-design" @click="next">
-            Next
-          </button>
-        </div>
-      </div>
-
-      <!--   <div class="content-container">
-                <div class="content-wrapper">
-                  <label>Inbound amount</label>
-                  <input type="number" class="cbm-input" id="myOutput" disabled>
-              
-                  <label>weight charges per item</label>
-                  <input type="number" class="cbm-input" id="myWeightOutput" disabled>
-                </div>
-              </div> -->
-
-      <div class="content-container" id="parttwo">
-        <div class="content-wrapper">
-          <form>
-            <input
-              type="range"
-              value="0"
-              min="0"
-              max="300"
-              class="slider"
-              @input="calculate()"
-              id="myCBMRange"
-            />
-          </form>
-          <label>CBM</label>
-          <input
-            type="number"
             value="0"
             min="0"
             max="300"
-            class="cbm-input"
-            @change="ranger()"
-            id="myCBM"
+            class="slider"
+            @input="calculate()"
+            id="myCBMRange"
           />
+        </form>
+        <label class="label-font">Storage in CBM</label>
+        <input
+          type="number"
+          value="0"
+          min="0"
+          max="300"
+          class="cbm-input"
+          @change="ranger()"
+          id="myCBM"
+        />
 
-          <!--  <label>total amount CBM</label>
-              <input type="number" class="cbm-input" id="myCBMoutput" disabled> -->
-          <div class="button-container">
-            <button type="button" class="button-design" @click="back()">
-              back
-            </button>
-            <button type="button" class="button-design" @click="done()">
-              done
-            </button>
-          </div>
+        <div class="button-container">
+          <button type="button" class="button-design" @click="back()">
+            Back
+          </button>
+          <button type="button" class="button-design" @click="done()">
+            Done
+          </button>
         </div>
       </div>
+    </div>
 
-      <div class="estimated-container" id="finalsummary">
-        <div class="estimated-wrapper">
-          <h2>Estimated Price</h2>
-          <p>The final estimated price is :</p>
-          <div class="estimated-amount-wrapper">
-            <span>RM </span><span id="estimatedtotal"></span>
-          </div>
-          <p>
-            Thank you for using our calculator to estimate your pricing. Please
-            do note that the prices given are not final and actual monthly
-            charges may be higher or lower than calculated. Final monthly
-            charges are dependent on various factors such as size of items,
-            required amount of bubble wrap layers, when items leave and come
-            into the warehouse, etc.
-          </p>
-          <p @click="next" class="estimated-container-back-button">
-            back to calculator
-          </p>
+    <div class="estimated-container" id="finalsummary">
+      <div class="estimated-wrapper">
+        <h2>Estimated Price</h2>
+        <p>The final estimated price is :</p>
+        <div class="estimated-amount-wrapper">
+          <span>RM </span><span id="estimatedtotal"></span>
         </div>
+        <p>
+          Thank you for using our calculator to estimate your pricing. Please do
+          note that the prices given are not final and actual monthly charges
+          may be higher or lower than calculated. Final monthly charges are
+          dependent on various factors such as size of items, required amount of
+          bubble wrap layers, when items leave and come into the warehouse, etc.
+        </p>
+        <p @click="next" class="estimated-container-back-button">
+          back to calculator
+        </p>
       </div>
-
-      <!--   <div class="content-container">
-              <div class="content-wrapper">
-                <label>total</label>
-                <input type="number" id="noCBM" onChange="calculate()" disabled>
-                <input type="number" id="total" onChange="calculate()" disabled>
-              </div>
-                  </div> -->
     </div>
   </div>
+  <!-- </div> -->
 </template>
 <script>
 export default {
@@ -126,13 +103,13 @@ export default {
     function calculate() {
       var input = document.getElementById(`myInput`);
       var totalinbound = input.value * 0.45;
-      console.log("value" + totalinbound);
+      // console.log("value" + totalinbound);
 
       var elt = document.getElementById("itemweight");
       var weight = elt.options[elt.selectedIndex].value;
       weight = parseFloat(weight);
       var weighttotal = input.value * weight;
-      console.log("weight" + weighttotal);
+      // console.log("weight" + weighttotal);
 
       var noCBMtotal = "";
       var slider = document.getElementById(`myRange`);
@@ -140,17 +117,17 @@ export default {
       var CBMrange = document.getElementById(`myCBMRange`);
       noCBMtotal = weighttotal + totalinbound;
       slider.value = noCBMtotal;
-      console.log("noCBM" + slider.value);
+      // console.log("noCBM" + slider.value);
       CBM.value = CBMrange.value;
       var CBMamount = CBMrange.value * 70;
-      console.log("cbm amount" + CBMamount);
+      // console.log("cbm amount" + CBMamount);
 
       var total = CBMamount + weighttotal + totalinbound;
-      console.log(total);
+      // console.log(total);
       slider.value = total;
 
-      console.log("total" + slider.value);
-      document.getElementById(`estimatedtotal`).innerText = total;
+      // console.log("total" + slider.value);
+      document.getElementById(`estimatedtotal`).innerText = total.toFixed(2);
 
       const allRanges = document.querySelectorAll(".range-wrap");
       allRanges.forEach((wrap) => {
@@ -175,7 +152,7 @@ export default {
       var CBMamount = CBM.value * 70;
 
       var total = CBMamount + noCBMtotal;
-      console.log(total);
+      // console.log(total);
       slider.value = total;
       calculate();
     }
@@ -238,10 +215,11 @@ export default {
   border-radius: 20px;
   margin: 30px auto;
   justify-content: center;
-  box-shadow: 0px 5px 50px 0 rgba(0, 0, 0, 0.5); /* further */
+  box-shadow: 0px 5px 50px 0 rgba(0, 0, 0, 0.5);
 }
 .pricing-card-wrapper {
   width: 80%;
+  margin: auto;
 }
 .content-container {
   margin: 30px auto;
@@ -281,6 +259,15 @@ export default {
   color: #ffd008;
   font-weight: 600;
 }
+
+.cbm-input {
+  border-radius: 5px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 .button-container {
   display: flex;
   flex-wrap: wrap;
@@ -296,24 +283,24 @@ export default {
   margin: auto;
   padding: 50px 0; /*  Giving more room for hover  */
   min-width: 100px;
-  max-width: 300px;
+  max-width: 500px;
 }
 
 /* Custom Bar */
 .range-wrap::before {
   content: "";
-  /*  background: linear-gradient(to right, #0145b8, #00e5e0, #00f25e); */
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     rgba(28, 5, 163, 1) 0%,
     rgba(0, 209, 255, 1) 50%,
     rgba(91, 162, 178, 1) 100%
-  );
+  ); */
+  background: rgb(196, 195, 195);
   width: 100%;
-  height: 8px;
+  height: 15px;
   display: block;
   position: absolute;
-  border-radius: 4px;
+  border-radius: 10px;
   top: 50%;
   transform: translateY(-50%);
   transition: height 100ms ease;
@@ -332,8 +319,8 @@ export default {
 
 .bubble {
   font-size: 12px;
-  background: white;
-  border: 3px solid #cbd2da;
+  background: #ffd000;
+  border: 3px solid #ffd000;
   position: absolute;
   border-radius: 50%;
   width: 2rem;
@@ -363,11 +350,7 @@ export default {
   width: 70px;
   margin: 10px auto;
 }
-/* .slider {
-  margin: auto;
-  min-width: 100px;
-  min-width: 300px;
-} */
+
 .slider {
   position: relative;
   width: 100%;
@@ -375,6 +358,10 @@ export default {
   padding: 20px 0; /*  Giving more room for hover  */
   min-width: 100px;
   max-width: 300px;
+}
+.label-font {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
 }
 #partone {
   display: block;

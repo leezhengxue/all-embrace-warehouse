@@ -20,16 +20,6 @@
         </div>
         <div class="contact-section-wrapper-2">
           <div class="image-wrapper">
-            <!-- <p>
-              Do you have a question about it? Are you looking for help? Want to
-              share your thoughts? Feel free to <b>contact us</b>, we have all
-              kinds of ways to assist you to solve it.
-            </p>
-            <p>Feel free to <b>contact us</b> in our customer service :)</p>
-            <p>
-              If you are looking at this page, you are in "the final stages of
-              the B2B journey". <b>HIT US UP!</b>
-            </p> -->
             <a
               href="https://www.google.com/maps/place/All-Embrace+Trading/@3.022309,101.6135567,17z/data=!3m1!4b1!4m5!3m4!1s0x31cdb3cc3a2946f5:0x2607b23f414c78ca!8m2!3d3.0223448!4d101.6157517"
               target="_blank"
@@ -95,76 +85,7 @@ export default {
   width: 100%;
   padding-top: 100px;
 }
-/* .hero-section {
-  width: 100%;
-  height: 500px;
-  position: fixed;
-  top: 100px;
-  background-color: pink;
-}
-.hero-section h1 {
-  padding-top: 8%;
-  font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  color: #fff;
 
-  text-align: left;
-  padding: 50px 10vw 0 10vw;
-}
-.section-1 {
-  width: 100%;
-  background: #ddd;
-  min-height: 80vh;
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-}
-
-.section-1 h2 {
-  font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 3px;
-  padding-top: 10px;
-  margin: 0;
-}
-.section-1 p {
-  font-family: "Roboto", sans-serif;
-  line-height: 30px;
-  padding-top: 2% 0;
-}
-.section-1-wrapper {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.section-2 {
-  display: block;
-  width: 100%;
-  background: #fff;
-  min-height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.section-2 h2 {
-  font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 3px;
-  padding-top: 10px;
-  margin: 0;
-}
-.section-2 p {
-  font-family: "Roboto", sans-serif;
-  line-height: 30px;
-  padding-top: 2% 0;
-  text-align: justify;
-}
-.section-2-wrapper {
-  width: 80%;
-  margin: auto;
-} */
 .card-container {
   /* modify how the card should be aligned here */
   display: flex;
@@ -173,15 +94,6 @@ export default {
   align-items: center;
   padding: 10px;
 }
-/* .solution-card {
-  min-height: 250px;
-  width: 250px;
-  background: blue;
-  border-radius: 20px;
-}
-.solution-card-wrapper {
-  padding: 10px;
-} */
 
 .contact-section {
   width: 100%;

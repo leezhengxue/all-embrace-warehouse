@@ -4,7 +4,7 @@
     <div class="content">
       <div class="hero-section">
         <div class="hero-section-wrapper">
-          <h2>We Guarantee YOU</h2>
+          <h2>Why Choose Us?</h2>
           <div class="card-container">
             <div class="solution-card">
               <div class="solution-card-wrapper">

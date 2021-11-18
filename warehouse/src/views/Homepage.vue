@@ -122,38 +122,7 @@
         </div>
       </div>
     </div>
-    <!-- <div class="section-1">
-      <div class="section-1-wrapper">
-        <div class="sub-section-container">
-          <div class="sub-section-wrapper">
-            <h4>
-              Some of the specific duties All-Embrace Warehouse may include:
-            </h4>
-            <p>
-              ✓ Picking merchandise from the distribution center and
-              transporting it to the shipping by for loading.
-            </p>
-            <p>
-              ✓ Receiving goods for return or delivery and verifying its
-              contents against the purchase order to ensure it is accurate and
-              free from damage.
-            </p>
-            <p>
-              ✓ Identifying lost, damaged or missing merchandise and notifying
-              the supplier/ client.
-            </p>
-            <p>
-              ✓ Training new employees on the company’s and department’s
-              processes and procedures for rapid onboarding.
-            </p>
-            <p>
-              ✓ Packing orders in an orderly manner so they are prepared for
-              shipping.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div> -->
+
     <div class="section-1">
       <div class="section-1-wrapper">
         <h2>Pricing Calculator</h2>

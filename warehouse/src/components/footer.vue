@@ -104,8 +104,6 @@ section {
   font-family: "Sofia Pro", sans-serif;
   color: #231f20;
   font-size: 60px;
-  /* -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: black; */
 }
 section .scroll {
   width: 100%;

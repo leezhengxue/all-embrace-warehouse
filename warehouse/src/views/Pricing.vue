@@ -2,8 +2,8 @@
   <div>
     <headernav />
     <div class="content">
-      <div class="section-1">
-        <div class="section-1-wrapper">
+      <div class="section-2">
+        <div class="section-2-wrapper">
           <h2>Pricing</h2>
           <div class="card-container-wrapper">
             <div class="card-container">
@@ -76,8 +76,8 @@
           </div>
         </div>
       </div>
-      <div class="section-2">
-        <div class="section-2-wrapper">
+      <div class="section-1">
+        <div class="section-1-wrapper">
           <h2>Pricing Calculator</h2>
           <p>
             Try out this cool calculator below to get an estimation of how much
