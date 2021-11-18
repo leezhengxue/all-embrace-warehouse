@@ -144,7 +144,7 @@ export default {
   width: 100%;
   position: relative;
   background: #f7d083;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
