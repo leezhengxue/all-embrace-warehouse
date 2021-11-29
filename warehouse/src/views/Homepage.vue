@@ -72,25 +72,45 @@
           your behalf. These include banding, labelling and set assembly. Of
           course, we also stock PoS displays and prepare them for retail.
         </p>
-        <h4>Our Operations</h4>
-        <p>
-          Operations should be lean and hassle-free. We all-embrace warehouse
-          offers a set of packaging services that enable customers to focus on
-          their core products and processes to grow their business. Packing,
-          kitting, warehousing, just-in-time delivery, and containerization are
-          examples of services that we custom build to meet specific
-          requirements of our customers.
-        </p>
-        <h4>Our Responsibilities</h4>
-        <p>
-          We All-Embrace warehouse performs functions related to the receiving
-          and processing of incoming goods and materials. Our responsibilities
-          may include packing and shipping orders or managing, organizing and
-          retrieving stock. We are also responsible for maintaining a clean and
-          safe working environment, keeping shelves, the workstation and the
-          pallet area clean and neat and complying with all rules and
-          regulations regarding cleanliness and safety.
-        </p>
+        <div class="content-over-image">
+          <div class="image-container-left">
+            <img src="../assets/our_operation.jpg" />
+          </div>
+          <div class="content-card-right">
+            <div class="content-card-wrapper">
+              <h4>Our Operations</h4>
+              <p>
+                Operations should be lean and hassle-free. We all-embrace
+                warehouse offers a set of packaging services that enable
+                customers to focus on their core products and processes to grow
+                their business. Packing, kitting, warehousing, just-in-time
+                delivery, and containerization are examples of services that we
+                custom build to meet specific requirements of our customers.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-over-image">
+          <div class="image-container-right">
+            <img src="../assets/our_responsible.jpg" />
+          </div>
+          <div class="content-card-left">
+            <div class="content-card-wrapper">
+              <h4>Our Responsibilities</h4>
+              <p>
+                We All-Embrace warehouse performs functions related to the
+                receiving and processing of incoming goods and materials. Our
+                responsibilities may include packing and shipping orders or
+                managing, organizing and retrieving stock. We are also
+                responsible for maintaining a clean and safe working
+                environment, keeping shelves, the workstation and the pallet
+                area clean and neat and complying with all rules and regulations
+                regarding cleanliness and safety.
+              </p>
+            </div>
+          </div>
+        </div>
 
         <div class="sub-section-container">
           <div class="sub-section-wrapper">
@@ -319,7 +339,7 @@ body {
   position: relative;
   top: 100vh;
   /* background: #f7d083; original*/
-  background: #fad999;
+  background: #eeeeee;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -346,6 +366,42 @@ body {
 .section-2-wrapper {
   width: 80%;
   margin: auto;
+}
+.content-over-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.image-container-left {
+  margin-right: 400px;
+  width: 450px;
+}
+.image-container-right {
+  margin-left: 400px;
+  width: 450px;
+}
+.content-over-image img {
+  border-radius: 0;
+  min-width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.content-card-right {
+  position: absolute;
+  left: 40%;
+  background: rgba(255, 255, 255, 0.9);
+}
+.content-card-left {
+  position: absolute;
+  right: 40%;
+  background: rgba(255, 255, 255, 0.9);
+}
+.content-card-wrapper {
+  padding: 20px;
+  max-width: 550px;
+  color: black;
 }
 .sub-section-container {
   margin: 20px;
@@ -413,6 +469,30 @@ img {
 @media (max-width: 1440px) {
   .solution-card {
     width: 250px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content-card-right {
+    left: 30%;
+  }
+  .content-card-left {
+    right: 30%;
+  }
+  .image-container-left {
+    margin-right: 0;
+  }
+  .image-container-right {
+    margin-left: 0;
+  }
+  .content-over-image img {
+    padding: 0;
+  }
+  .content-card-right {
+    position: static;
+  }
+  .content-card-left {
+    position: static;
   }
 }
 

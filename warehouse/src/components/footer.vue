@@ -16,10 +16,10 @@
           <div><img class="logo" src="../assets/AE_logo_black.png" /></div>
           <div>
             <!-- <h3>About us</h3> -->
-            <p>
+            <!-- <p>
               Simplified,<br />
               Reliable, <br />Secure.
-            </p>
+            </p> -->
           </div>
         </div>
         <div class="footer-content-slot-2">
@@ -55,12 +55,13 @@
           </p>
         </div>
         <div class="footer-content-slot-4">
+          <h3>Contact</h3>
           <p>
             All-Embrace Warehouse Sdn. Bhd.<br />
             allembrace.trading@gmail.com<br />
             <a href="https://wa.link/buffw6" target="_blank">+60 14 660 1574</a>
           </p>
-          <img class="logo" src="../assets/whatsapp_qr.png" />
+          <img class="qrlogo" src="../assets/whatsapp_qr.png" />
         </div>
 
         <div class="line"></div>
@@ -109,6 +110,11 @@ export default {
   margin: auto;
 }
 .logo {
+  height: 200px;
+  width: auto;
+  padding: 5px;
+}
+.qrlogo {
   height: 100px;
   width: auto;
   padding: 5px;
@@ -155,7 +161,7 @@ section.scroll div:nth-child(2) {
 .footer-content-slot-1 {
   font-size: 15px;
   text-align: left;
-  padding: 20px;
+  padding: 0 20px;
   width: 200px;
 }
 .footer-content-slot-1 p {
@@ -194,7 +200,7 @@ section.scroll div:nth-child(2) {
   background: #231f20;
   height: 1.5px;
   width: 90%;
-  margin: 30px 0 30px 0;
+  margin: 10px 0 30px 0;
 }
 .footer-copyright {
   width: 85%;

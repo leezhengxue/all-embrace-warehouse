@@ -353,8 +353,8 @@ body {
 }
 .tab-section-container {
   width: 100%;
-  background: #fad999;
-  min-height: 100vh;
+  background: #eeeeee;
+  min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -537,7 +537,7 @@ p {
 /* TABS */
 .container-content-tab {
   border-radius: 10px;
-  background: #fad999;
+  background: #eeeeee;
 }
 
 .tabs {
@@ -545,7 +545,7 @@ p {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin: 150px auto;
+  margin: 80px auto;
 }
 .tabs:after {
   content: "";
@@ -588,7 +588,7 @@ p {
   width: 100%;
   margin: 30px auto;
   box-sizing: border-box;
-  background-color: #fad999;
+  background-color: #eeeeee;
 }
 
 .tab__content * {
@@ -612,7 +612,7 @@ p {
 }
 
 .tabs [id^="tab"]:checked + label span {
-  background: #fad999;
+  background: #eeeeee;
   color: #3498db;
   font-weight: 700;
   font-size: 19px;
